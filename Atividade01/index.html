@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Festival Sertanejo</title>
+</head>
+
+<body>
+
+ <header>
+    <h1> Festival Sertanejo 2026 - Laranjeiras </h1>
+    <p>Garanta seu ingresso para o maior evento de musicas da região!</p>
+</header>
+
+    <h2>Sobre o Evento</h2>
+    <img src="Corpo e alma.jfif" alt="Imagem do Evento Musical" width="400">
+
+    <h2>Vídeo Promocional</h2>
+   <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/1I2BLoDxWxQ?si=NQFpH_c-HmXLfCyn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h2>Programação de Shows</h2>
+    <table border="1">
+        <tr>
+            <th>Horário</th>
+            <th>Artista</th>
+            <th>Palco</th>
+        </tr>
+        <tr>
+            <td>18:00</td>
+            <td>Banda Corpo e Alma</td>
+            <td>Palco Principal</td>
+        </tr>
+        <tr>
+            <td>20:00</td>
+            <td>João Nelore e Texano</td>
+            <td>Palco Secundario</td>
+        </tr>
+        <tr>
+            <td>22:00</td>
+            <td>Cesar Menotti e Fabiano</td>
+            <td>Palco Principal</td>
+        </tr>
+    </table>
+
+    <h2>Inscreva-se</h2>
+    <form action="#" method="post">
+
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" required>
+        <br><br>
+
+        <label for="email">E-mail:</label><br>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="telefone">Telefone:</label><br>
+        <input type="tel" id="telefone" name="telefone" required>
+        <br><br>
+
+        <p>Tipo de Ingresso:</p>
+        <input type="radio" id="pista" name="ingresso" value="Pista" required>
+        <label for="pista">Pista</label>
+        <br>
+
+        <input type="radio" id="vip" name="ingresso" value="VIP">
+        <label for="vip">VIP</label>
+        <br>
+
+        <input type="radio" id="camarote" name="ingresso" value="Camarote">
+        <label for="camarote">Camarote</label>
+        <br><br>
+
+        <input type="checkbox" id="atualizacoes" name="atualizacoes">
+        <label for="atualizacoes">Receber atualizações por e-mail</label>
+        <br><br>
+
+        <button type="submit">Enviar Inscrição</button>
+
+    </form>
+
+    <link rel="stylesheet" href="style.css">
+
+</body>
+</html>
